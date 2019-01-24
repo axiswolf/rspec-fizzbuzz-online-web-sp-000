@@ -3,13 +3,10 @@
 def fizzbuzz(int)
   if int % 3 == 0
     puts "Fizz"
-    break
   elsif int % 5 == 0
     puts "Buzz"
-    break
   elsif int % 15 == 0
     puts "FizzBuzz"
-    break
   elsif !(int % 3 || 5 == 0)
     puts "nil"
   end
